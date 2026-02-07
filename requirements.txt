@@ -1,0 +1,39 @@
+# ITS Intelligence Hub v2 - Dependencies
+# Install: pip install -r requirements.txt
+
+# HTTP & Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.1.0
+fake-useragent>=1.4.0
+
+# Retry Logic
+tenacity>=8.2.0
+
+# Database
+supabase>=2.3.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Progress & Logging
+tqdm>=4.66.0
+colorlog>=6.8.0
+
+# XML Processing (for OAI-PMH)
+defusedxml>=0.7.1
+
+# Phase 2: Vectorization
+google-generativeai>=0.3.0
+
+# Phase 2.5: Metadata Enrichment
+PyMuPDF>=1.23.0
+bibtexparser>=1.4.0
+
+# Phase 2.5: SINTA Scraper (Browser Automation)
+# After pip install, run: playwright install chromium
+playwright>=1.40.0
